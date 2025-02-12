@@ -1,9 +1,6 @@
 * {
   font-family: SamsungOne;
 }
-body {
-  scale: 2;
-}
 header {
   background-color: #126E82;
   position: absolute;
@@ -57,8 +54,7 @@ header {
       #dicio {
         position: absolute;
         top: 190pt;
-        left: 50%;
-        tranform: translateX(-50%);
+        left: 10pt;
         width: 270pt;
         height: 250pt;
         background-color: #D8E3E7;
