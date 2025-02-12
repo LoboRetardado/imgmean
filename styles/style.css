@@ -1,5 +1,4 @@
-@media (max-width: 768px) {
-     * {
+* {
   font-family: SamsungOne;
 }
 header {
@@ -81,4 +80,3 @@ header {
     #what {
       right: 125pt;
     }
-}
