@@ -29,20 +29,20 @@ header {
         top: 310pt;
         left: 50%;
         transform: translateX(-50%);
-        width: 300pt;
+        width: 350pt;
         height: 75pt;
         font-size: 40px;
         padding-left: 5px;
         padding-top: 5px;
         border: solid #51C4D3 5px;
-        border-radius: 5px;
+        border-radius: 10px;
       }
       #palavra:focus {
         outline: none;
       }
       #procurar {
         position: absolute;
-        top: 380pt;
+        top: 400pt;
         left: 50%;
         transform: translateX(-50%);
         width: 150pt;
@@ -54,7 +54,7 @@ header {
       }
       #dicio {
         position: absolute;
-        top: 450pt;
+        top: 480pt;
         left: 50%;
         transform: translateX(-50%);
         width: 540pt;
