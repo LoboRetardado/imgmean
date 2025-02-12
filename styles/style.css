@@ -29,9 +29,8 @@ header {
         top: 310pt;
         left: 50%;
         transform: translateX(-50%);
-        width: 130pt;
-        height: 25pt;
-        scale: 2;
+        width: 520pt;
+        height: 100pt;
         font-size: 15px;
         padding-left: 5px;
         padding-top: 5px;
@@ -46,8 +45,8 @@ header {
         top: 350pt;
         left: 50%;
         transform: translateX(-50%);
-        width: 100pt;
-        height: 20pt;
+        width: 300pt;
+        height: 60pt;
         scale: 2;
         background-color: #51C4D3;
         border: none;
