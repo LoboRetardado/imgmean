@@ -29,8 +29,8 @@ header {
         top: 310pt;
         left: 50%;
         transform: translateX(-50%);
-        width: 260pt;
-        height: 50pt;
+        width: 130pt;
+        height: 25pt;
         font-size: 15px;
         padding-left: 5px;
         padding-top: 5px;
@@ -45,8 +45,8 @@ header {
         top: 350pt;
         left: 50%;
         transform: translateX(-50%);
-        width: 150pt;
-        height: 30pt;
+        width: 750pt;
+        height: 15pt;
         scale: 2;
         background-color: #51C4D3;
         border: none;
@@ -54,7 +54,7 @@ header {
       }
       #dicio {
         position: absolute;
-        top: 390pt;
+        top: 450pt;
         left: 50%;
         transform: translateX(-50%);
         width: 540pt;
