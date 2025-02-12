@@ -54,7 +54,8 @@ header {
       #dicio {
         position: absolute;
         top: 190pt;
-        left: 10pt;
+        left: 50%;
+        transform: translateX(-50%);
         width: 270pt;
         height: 250pt;
         background-color: #D8E3E7;
@@ -69,7 +70,7 @@ header {
     .links {
       position: absolute;
       width: 120px;
-      top: 170pt;
+      top: 190pt;
     }
     #git {
       right: 15pt;
