@@ -63,7 +63,7 @@ header {
       position: absolute;
       width: 240px;
       left: 5pt;
-      top: 130pt;
+      top: 150pt;
       border-radius: 50%;
     }
     .links {
@@ -75,8 +75,8 @@ header {
       right: 15pt;
     }
     #you {
-      right: 90pt;
+      right: 130pt;
     }
     #what {
-      right: 145pt;
+      right: 185pt;
     }
