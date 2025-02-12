@@ -26,7 +26,7 @@ header {
       }
       #palavra {
         position: absolute;
-        top: 110pt;
+        top: 210pt;
         left: 50%;
         transform: translateX(-50%);
         width: 130pt;
@@ -42,7 +42,7 @@ header {
       }
       #procurar {
         position: absolute;
-        top: 150pt;
+        top: 250pt;
         left: 50%;
         transform: translateX(-50%);
         width: 100pt;
@@ -53,11 +53,11 @@ header {
       }
       #dicio {
         position: absolute;
-        top: 190pt;
+        top: 290pt;
         left: 50%;
         transform: translateX(-50%);
-        width: 270pt;
-        height: 250pt;
+        width: 540pt;
+        height: 500pt;
         background-color: #D8E3E7;
       }
     #eu {
