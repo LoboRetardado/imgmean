@@ -26,16 +26,15 @@ header {
       }
       #palavra {
         position: absolute;
-        top: 310pt;
+        top: 290pt;
         left: 50%;
         transform: translateX(-50%);
         width: 350pt;
         height: 75pt;
         font-size: 40px;
         padding-left: 20px;
-        padding-top: 40px
-        border: solid #51C4D3 5px;
-        border-radius: 10px;
+        border: solid #51C4D3 10px;
+        border-radius: 15px;
       }
       #palavra:focus {
         outline: none;
@@ -54,7 +53,7 @@ header {
       }
       #dicio {
         position: absolute;
-        top: 480pt;
+        top: 500pt;
         left: 50%;
         transform: translateX(-50%);
         width: 540pt;
