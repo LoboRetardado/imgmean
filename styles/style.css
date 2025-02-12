@@ -63,20 +63,20 @@ header {
       position: absolute;
       width: 240px;
       left: 5pt;
-      top: 100pt;
+      top: 130pt;
       border-radius: 50%;
     }
     .links {
       position: absolute;
-      width: 150px;
+      width: 120px;
       top: 95pt;
     }
     #git {
       right: 15pt;
     }
     #you {
-      right: 70pt;
+      right: 90pt;
     }
     #what {
-      right: 125pt;
+      right: 145pt;
     }
