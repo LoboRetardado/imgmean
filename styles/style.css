@@ -82,5 +82,6 @@ header {
       right: 255pt;
     }
     #meaning {
+      position: absolute;
       width: 100%;
     }
