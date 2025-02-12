@@ -69,7 +69,7 @@ header {
     .links {
       position: absolute;
       width: 120px;
-      top: 95pt;
+      top: 170pt;
     }
     #git {
       right: 15pt;
@@ -78,5 +78,5 @@ header {
       right: 130pt;
     }
     #what {
-      right: 215pt;
+      right: 255pt;
     }
