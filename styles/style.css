@@ -29,12 +29,12 @@ header {
         top: 310pt;
         left: 50%;
         transform: translateX(-50%);
-        width: 250pt;
+        width: 300pt;
         height: 75pt;
         font-size: 40px;
         padding-left: 5px;
         padding-top: 5px;
-        border: solid #51C4D3 2px;
+        border: solid #51C4D3 5px;
         border-radius: 5px;
       }
       #palavra:focus {
@@ -45,7 +45,7 @@ header {
         top: 380pt;
         left: 50%;
         transform: translateX(-50%);
-        width: 100pt;
+        width: 150pt;
         height: 40pt;
         background-color: #51C4D3;
         border: none;
