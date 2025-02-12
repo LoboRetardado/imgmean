@@ -29,8 +29,8 @@ header {
         top: 310pt;
         left: 50%;
         transform: translateX(-50%);
-        width: 130pt;
-        height: 25pt;
+        width: 180pt;
+        height: 75pt;
         font-size: 15px;
         padding-left: 5px;
         padding-top: 5px;
@@ -42,7 +42,7 @@ header {
       }
       #procurar {
         position: absolute;
-        top: 350pt;
+        top: 380pt;
         left: 50%;
         transform: translateX(-50%);
         width: 80pt;
