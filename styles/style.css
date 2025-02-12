@@ -45,8 +45,8 @@ header {
         top: 350pt;
         left: 50%;
         transform: translateX(-50%);
-        width: 750pt;
-        height: 15pt;
+        width: 80pt;
+        height: 20pt;
         scale: 2;
         background-color: #51C4D3;
         border: none;
