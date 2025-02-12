@@ -63,12 +63,12 @@ header {
       position: absolute;
       width: 240px;
       left: 5pt;
-      top: 70pt;
+      top: 100pt;
       border-radius: 50%;
     }
     .links {
       position: absolute;
-      width: 200px;
+      width: 150px;
       top: 95pt;
     }
     #git {
