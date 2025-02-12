@@ -2,10 +2,8 @@
         font-family: SamsungOne;
       }
       body {
-           scale: 2;
+           scale: 4;
            height: 100%;
-           display: flex;
-           flex-direction: columnn;
       }
       header {
         background-color: #126E82;
