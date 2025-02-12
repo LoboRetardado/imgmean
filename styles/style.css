@@ -57,7 +57,8 @@ header {
       #dicio {
         position: absolute;
         top: 190pt;
-        left: 10pt;
+        left: 50%;
+        tranform: translateX(-50%);
         width: 270pt;
         height: 250pt;
         background-color: #D8E3E7;
