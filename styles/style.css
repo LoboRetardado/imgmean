@@ -61,14 +61,14 @@ header {
       }
     #eu {
       position: absolute;
-      width: 120px;
+      width: 240px;
       left: 5pt;
       top: 70pt;
       border-radius: 50%;
     }
     .links {
       position: absolute;
-      width: 50px;
+      width: 200px;
       top: 95pt;
     }
     #git {
