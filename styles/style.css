@@ -1,6 +1,9 @@
 * {
   font-family: SamsungOne;
 }
+body {
+  scale: 2;
+}
 header {
   background-color: #126E82;
   position: absolute;
