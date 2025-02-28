@@ -22,7 +22,7 @@ procurar.addEventListener('click', function() {
 
 search.addEventListener('click', function() {
     var word = palavra.value.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
-    window.open(`https://www.google.com/search?q=site%3Awww.significados.com.br+${word}`, '_blank')
+    window.open(`https://www.significados.com.br/?s=${word}`, '_blank')
 })
 function goGit() {
     window.open('https://github.com/LoboRetardado', '_blank')
