@@ -1,0 +1,198 @@
+* {
+  font-family: SamsungOne;
+}
+header {
+  position: absolute;
+  top: 0pt;
+  left: 0pt;
+  width: 100%;
+  background-color: #126e82;
+  text-align: center;
+  color: white;
+}
+footer {
+  position: absolute;
+  background-color: #132c33;
+  width: 100%;
+  left: 0pt;
+  top: 425pt;
+  height: 170pt;
+}
+h3 {
+  position: absolute;
+  left: 20pt;
+  top: 0pt;
+  font-size: 15pt;
+}
+#palavra {
+  position: absolute;
+  top: 200pt;
+  left: 300pt;
+  height: 40pt;
+  width: 160pt;
+  border: solid #51c4d3;
+  border-radius: 10pt;
+  font-size: 20px;
+  padding-left: 5pt;
+}
+#palavra:focus {
+  outline: none;
+}
+#dicio {
+  position: absolute;
+  background-color: #d8e3e7;
+  height: 260pt;
+  width: 350pt;
+  right: 100pt;
+  top: 130pt;
+  border-radius: 15pt;
+}
+#procurar {
+  position: absolute;
+  background-color: #51c4d3;
+  width: 120pt;
+  height: 30pt;
+  border: none;
+  border-radius: 10pt;
+  font-size: 12pt;
+  top: 260pt;
+  left: 325pt;
+  cursor: pointer;
+  transition: 250ms;
+}
+#procurar:hover {
+  scale: 1.1;
+}
+#meaning {
+  border-radius: 15pt;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+}
+.links {
+  position: absolute;
+  width: 50pt;
+  top: 75pt;
+  cursor: pointer;
+  transition: 250ms;
+}
+.links:hover {
+  scale: 1.1;
+}
+#you {
+  left: 125pt;
+}
+#what {
+  left: 200pt;
+}
+#git {
+  left: 275pt;
+}
+#tik {
+  left: 350pt;
+}
+#face {
+  left: 425pt;
+}
+#eu {
+  position: absolute;
+  border-radius: 50%;
+  width: 100pt;
+  top: 50pt;
+  left: 10pt;
+}
+#dev {
+  position: absolute;
+  left: 250pt;
+  top: 10pt;
+  font-size: 15pt;
+  text-align: center;
+}
+#search {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 60%;
+  background-color: #126e82;
+  border: none;
+  width: 80pt;
+  height: 30pt;
+  font-size: 12pt;
+  border-radius: 5pt;
+  color: white;
+  cursor: pointer;
+  transition: 250ms;
+  display: none;
+}
+#search:hover {
+  scale: 1.1;
+}
+#notfound {
+  position: absolute;
+  text-align: center;
+  left: 10pt;
+  top: 40pt;
+  font-size: 15pt;
+}
+@media (max-width: 600px) {
+  header {
+    font-size: 10pt;
+  }
+  footer {
+    top: 380pt;
+  }
+  #dicio {
+    scale: 0.65;
+    left: -30pt;
+    top: 120pt;
+  }
+  #palavra {
+    scale: 0.65;
+    top: 70pt;
+    left: 55pt;
+  }
+  #procurar {
+    left: 80pt;
+    scale: 0.65;
+    top: 110pt;
+    height: 35pt;
+  }
+  #procurar:hover {
+    scale: 0.65;
+  }
+  #face {
+    left: 145pt;
+    top: 110pt;
+  }
+  #git {
+    left: 100pt;
+    top: 110pt;
+  }
+  #tik {
+    left: 55pt;
+    top: 110pt;
+  }
+  #you {
+    top: 110pt;
+    left: 10pt;
+  }
+  #what {
+    top: 110pt;
+    left: 190pt;
+  }
+  .links {
+    scale: 0.65;
+  }
+  .links:hover {
+    scale: 0.65;
+  }
+  #dev {
+    left: 10pt;
+    top: -10pt;
+  }
+  #eu {
+    scale: 0.65;
+    left: -10pt;
+    top: 30pt;
+  }
+}
