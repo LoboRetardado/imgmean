@@ -1,38 +1,35 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="pt-PT">
 <head>
-  <meta lang="pt-PT" http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
-  <link rel="stylesheet" href="styles/style.css"/>
-  <title>Significados em Imagens</title>
-  <link rel="icon" href="icon.png">
-  <link href="https://fonts.cdnfonts.com/css/samsungone" rel="stylesheet">
-  <link rel="stylesheet" href="styles/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Significados em Imagens</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="icon.png">
+    <link href="https://fonts.cdnfonts.com/css/samsungone" rel="stylesheet"> 
 </head>
 <header>
-  <h1>Significados em Imagens</h1>
-</header>
-<body>
-  <h2 style="position: absolute; text-align: center; left: 50%; transform: translateX(-50%); top: 140pt; font-size: 40px;">Encontre o significado de palavras da língua portuguesa</h2>
-  
-  <textarea id="palavra" placeholder="Coloque a palavra aqui"></textarea>
-  
-  <input id="procurar" type="button" value="Procurar">
-  
-  <div id="dicio">
-    <p style="position: absolute; bottom: 0pt; left: 5pt; font-size: 30px">As imagens contendo os significados das palavras são propriedade do site <a href="https://www.dicio.com.br"><strong>Dicio</strong></a></p>
-    <img id="meaning" src="">
-  </div>
-
-  <footer>
-  <h3 style="color: white; position: absolute; left: 5pt; font-size: 50px;">Significados em imagens</h3>
-  <p style="color: white; position: absolute; left: 5pt; font-size: 40px; top: 60pt;">Site criado por Lobo Retardado</p>
-  
-  <img id="eu" src="eu.png" alt="Dev">
-  <img id="git" src="github.png" class="links" onclick="goGit()">
-  <img id="you" src="youtube.png" class="links" onclick="goYou()">
-  <img id="what" src="meta.png" class="links" onclick="goWhat()">
-  </footer>
+    <h1 style="line-height: 200%;">Significados em Imagens</h1>
+</header>  
+<body>  
+    <input type="text" id="palavra" placeholder="Coloque a palavra aqui">
+    <input id="procurar" type="button" value="Procurar">
+    
+    <div id="dicio">
+      <img id="meaning" src="" style="width: 100%;">
+      <input id="search" type="button" value="Procurar  >">
+      <p id="notfound"></p>
+    </div>  
 </body>
+<footer>
+    <p style="color: white;" id="dev">Desenvolvido por<br>Lobo Retardado</p>
+    
+    <img id="eu" src="eu.png" alt="Dev">
+    <img id="git" src="github.png" class="links" onclick="goGit()">
+    <img id="you" src="youtube.png" class="links" onclick="goYou()">
+    <img id="what" src="meta.png" class="links" onclick="goWhat()">
+    <img id="tik" src="tik.png" class="links" onclick="goTik()">
+    <img id="face" src="face.png" class="links" onclick="goFace()">
+</footer>
 <script src="scripts/script.js"></script>
 </html>
